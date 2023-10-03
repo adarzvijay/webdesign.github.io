@@ -1,0 +1,37 @@
+.navbar a, .sidenav a, .footer a{
+    text-decoration: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5px;
+}
+
+#call i, #mail i, #whatsapp i {
+    margin-right: 10px;
+}
+
+.footer a{
+    color: white;
+}
+
+@media (max-width: 992px) {
+
+    .logo {
+        order: 2;
+    }
+
+    .joinus {
+        order: 3;
+    }
+
+}
+
